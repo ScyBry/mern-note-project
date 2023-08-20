@@ -4,8 +4,8 @@ import mongoose from 'mongoose';
 
 const port = env.PORT;
 
-if (!port) {
-}
+// if (!port) {
+// }
 
 mongoose
    .connect(env.MONGO_CONNECTION_STRING)
