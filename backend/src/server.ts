@@ -13,7 +13,7 @@ mongoose
       console.log('Mongoose connected!');
 
       app.listen(port!, () => {
-         console.log('Setver runinng on port: ' + port);
+         console.log('Server runinng on port: ' + port);
       });
    })
    .catch(console.error);
